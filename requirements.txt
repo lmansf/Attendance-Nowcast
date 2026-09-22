@@ -1,6 +1,8 @@
 numpy>=1.26
 pandas>=2.1
 matplotlib>=3.8
+sqlalchemy>=2.0      # portable SQL access: SQLite locally, Postgres/SQL Server in production
+holidays>=0.50       # US + Florida holiday calendar
 jupyter>=1.0
 nbconvert>=7.0
 pytest>=8.0

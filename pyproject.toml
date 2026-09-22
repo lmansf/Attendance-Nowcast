@@ -7,7 +7,7 @@ name = "nowcast"
 version = "0.1.0"
 description = "Learning-series Kalman filter for intraday theme-park attendance nowcasting"
 requires-python = ">=3.11"
-dependencies = ["numpy", "pandas", "matplotlib"]
+dependencies = ["numpy", "pandas", "matplotlib", "sqlalchemy", "holidays"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
@@ -15,3 +15,6 @@ where = ["src"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+
+[tool.setuptools.package-data]
+nowcast = ["schema.sql"]
