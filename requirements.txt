@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.1
+matplotlib>=3.8
+jupyter>=1.0
+nbconvert>=7.0
+pytest>=8.0
+# Installs src/nowcast in editable mode so the notebooks can `import nowcast`.
+-e .
