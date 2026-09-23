@@ -12,6 +12,7 @@ COLORS = {
     "measurement": "#eb6834",  # orange - raw measurements / implied totals
     "forecast": "#1baf7a",     # aqua   - pre-open forecast (the prior)
     "alt": "#4a3aa7",          # violet - a second variant being compared
+    "alt2": "#eda100",         # yellow - a third variant being compared
     "truth": "#0b0b0b",        # ink    - the true value (dashed)
     "muted": "#52514e",        # secondary ink for annotations
 }
